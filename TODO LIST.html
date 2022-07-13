@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="TODO LIST.css">
+
+  <script src="TODO LIST.js"></script>
+  <title>Document</title>
+</head>
+<body>
+
+ 
+  <h1 class="heading">TO-DO LIST</h1>
+
+
+
+
+  <!-- starting form -->
+
+
+  <div class="outerform">
+
+    <div class="mb-3 m-5">
+      <label for="exampleFormControlInput1" class="form-label">Title</label>
+      <input type="email" class="form-control" id="title" placeholder="Enter the title">
+    </div>
+  
+    <div class="mb-3 m-5 ">
+      <label for="exampleFormControlTextarea1" class="form-label">Discription</label>
+      <textarea class="form-control" id="discription" rows="3" placeholder="Enter the discription"></textarea>
+      <br>
+      <button type="button" class="btn btn-primary" onclick="myupdate()">Add</button>
+  
+      <button type="button" class="btn btn-danger" onclick="cleared()">Clear</button>
+    </div>
+  </div>
+
+  <!-- ending form -->
+  
+  <!-- starting tables -->
+
+  <table  class="table tables mx-5">
+    <thead>
+      <tr>
+        <th scope="col">S.NO.</th>
+        <th scope="col">Title</th>
+        <th scope="col">Discription</th>
+        
+      </tr>
+    </thead>
+    <tbody id = "tbody">
+      
+      
+      
+    </tbody>
+  </table>
+
+  <!-- ending table -->
+
+  
+</body>
+</html>

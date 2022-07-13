@@ -1,0 +1,26 @@
+.outerform
+{
+    border: 2px solid rgb(206, 197, 197);
+    border-radius: 5px;
+     
+    padding: 20px;
+    margin: 10px;
+}
+
+.heading
+{
+    text-align: center;
+    color: rgb(35, 35, 155);
+    
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.tables
+{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px 20px;
+}
